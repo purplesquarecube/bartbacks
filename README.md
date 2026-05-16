@@ -17,35 +17,55 @@ I will be working on versions for different operating systems.
 - 💦 New UI: Liquid Glass
  # BartBacks AppImage Build
 
-## Build Instructions
+# How To Build The AppImage
 
-### 1. Install dependencies
+## 1. Download the ZIP
+
+Download `bartbacks_appimage_project.zip`
+
+---
+
+## 2. Extract the ZIP
+
+```bash
+unzip bartbacks_appimage_project.zip
+```
+
+---
+
+## 3. Open the project folder
+
+```bash
+cd bartbacks_appimage_project
+```
+
+---
+
+## 4. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Build the AppImage
+---
+
+## 5. Build the AppImage
 
 ```bash
 npm run build
 ```
 
-### 3. Find the AppImage
+---
 
-The compiled AppImage will appear in:
+## 6. Open the AppImage
+
+The AppImage will appear in:
 
 ```bash
 dist/
 ```
 
-Example:
-
-```bash
-dist/BartBacks-1.0.0.AppImage
-```
-
-### 4. Run the AppImage
+Run it with:
 
 ```bash
 chmod +x dist/BartBacks-1.0.0.AppImage
@@ -57,17 +77,9 @@ chmod +x dist/BartBacks-1.0.0.AppImage
 ## Requirements
 
 - Linux
-- Node.js 20+
+- Node.js
 - npm
 
----
-
-## Install Node.js
+Install Node.js:
 
 https://nodejs.org
-
----
-
-## GitHub Actions
-
-This repo includes a GitHub Actions workflow that automatically builds the AppImage on push.
