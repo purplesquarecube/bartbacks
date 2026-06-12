@@ -1,66 +1,76 @@
-# How To Build The AppImage
+## bart backs v1.4
 
-## 1. Download the ZIP
-
-Download `Bart.Backs.Appimage.zip`
+big update fr
 
 ---
 
-## 2. Extract the ZIP
+### 🏆 achievements system
+<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" width="60"/>
 
-```bash
-unzip Bart.Backs.Appimage.zip
-```
-
----
-
-## 3. Open the project folder
-
-```bash
-cd bartbacks_appimage_project
-```
+- new achievements  
+- progress tracking  
+- unlock popups  
 
 ---
 
-## 4. Install dependencies
+### 📱 mobile support
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" width="60"/>
 
-```bash
-npm install
-```
-
----
-
-## 5. Build the AppImage
-
-```bash
-npm run build
-```
+- touch controls  
+- mobile ui cleanup  
+- device select on start  
 
 ---
 
-## 6. Open the AppImage
+### 🎯 gameplay
+<img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" width="60"/>
 
-The AppImage will appear in:
-
-```bash
-dist/
-```
-
-Run it with:
-
-```bash
-chmod +x dist/BartBacks-1.0.0.AppImage
-./dist/BartBacks-1.0.0.AppImage
-```
+- added extra flippers  
+- better ball control  
 
 ---
 
-## Requirements
+### 🌎 world stuff
+<img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png" width="60"/>
 
-- Linux
-- Node.js
-- npm
+- new themes  
+- smoother transitions  
+- better backgrounds  
 
-Install Node.js:
+---
 
-https://nodejs.org
+### 👑 end screen
+<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" width="60"/>
+
+- new champion screen  
+
+---
+
+### 🛒 shop
+<img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" width="60"/>
+
+- apu shopkeeper added  
+- new dialogue system  
+- more interactive shop  
+
+---
+
+### 🛠️ dev tools
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" width="60"/>
+
+- unlock/reset achievements  
+- anti gravity / speed / freeze / teleport  
+- giant mode + bumper control  
+
+---
+
+### ✨ visuals
+<img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png" width="60"/>
+
+- new animations  
+- cleaner ui  
+- better effects  
+
+---
+
+**v1.4 = biggest update so far**
